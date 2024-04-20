@@ -57,4 +57,4 @@ jobs:
           --source=./httpFunction \
           --trigger-http \
           --allow-unauthenticated \
-          --ingress-settings=internal
+          --ingress-settings=internal-only
