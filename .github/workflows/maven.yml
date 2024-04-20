@@ -56,4 +56,5 @@ jobs:
           --region=us-central1 \
           --source=./httpFunction \
           --trigger-http \
-          --allow-unauthenticated        
+          --allow-unauthenticated \
+          --ingress-settings=internal
